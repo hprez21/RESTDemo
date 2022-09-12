@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="RESTDemo.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Button Command="{Binding GetAllUsersCommand}" Text="Get All Users" />
+        <Button Command="{Binding GetSingleUserCommand}" Text="Get Single User" />
+        <Button Command="{Binding AddUserCommand}" Text="Add User" />
+        <Button Command="{Binding UpdateUserCommand}" Text="Update User" />
+        <Button Command="{Binding DeleteUserCommand}" Text="Delete User" />
+    </VerticalStackLayout>
+
+</ContentPage>
